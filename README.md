@@ -46,3 +46,6 @@ User Stories on function `countingFractions(limit)` taken from [FreeCodeCamp - C
 
 The function `countingFractions(limit)` returns a number, where `limit` is a number between 2 and 1000000.
 
+## Features
+
+Allows the user to enter the limit (number) in order to get the number of elements contained in the set of reduced proper fractions for d &le; limit.  Performs checks on valid user input.  If the input is invalid, an error message is obtained.
