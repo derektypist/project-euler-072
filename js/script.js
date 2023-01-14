@@ -15,3 +15,27 @@ function getLimitInfo() {
     // Display Information in the Browser
     document.getElementById("limitinfo").innerHTML = txt;
 }
+
+/*
+    Function to return the number of elements in the set of reduced proper
+    fractions for d less than or equal to the limit
+    countingFractions(8)       returns 21
+    countingFractions(20000)   returns 121590395
+    countingFractions(500000)  returns 75991039675
+    countingFractions(1000000) returns 303963552391
+*/
+function countingFractions(limit) {
+    const phi = {};
+    let count = 0;
+    for (let i=2;i<=limit;i++) {
+        if (!phi[i]) phi[i] = i;
+        if (phi[i] === i) {
+            for (let j=i;j<=limit;j+=i) {
+                if (!phi[j]) phi[j] = j;
+                phi[j] = (phi[j]/i) * (i-1);
+            }
+        }
+        count += phi[i];
+    }
+    return count;
+}
