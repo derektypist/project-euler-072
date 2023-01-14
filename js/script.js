@@ -39,3 +39,9 @@ function countingFractions(limit) {
     }
     return count;
 }
+
+// Function to Clear Information
+function clearInfo() {
+    let txt = "";
+    document.getElementById("limitinfo").innerHTML = txt;
+}
