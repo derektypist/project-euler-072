@@ -49,3 +49,8 @@ The function `countingFractions(limit)` returns a number, where `limit` is a num
 ## Features
 
 Allows the user to enter the limit (number) in order to get the number of elements contained in the set of reduced proper fractions for d &le; limit.  Performs checks on valid user input.  If the input is invalid, an error message is obtained.
+
+## Technologies
+
+Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.0-alpha1 and Google Fonts.
+
