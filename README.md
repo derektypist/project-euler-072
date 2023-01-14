@@ -60,7 +60,7 @@ Ensure all user stories have been met.  In the terminal enter:
 
     python3 -m http.server
 
-Select `Open Preview` to preview the browser.  Enter the numbers and Submit.  Check if the result corresponds to the user story.  If it does not, check typing.
+Select `Open Preview` to do a preview.  Enter the numbers and Submit.  Check if the result corresponds to the user story.  If it does not, check typing.
 
 ## Deployment
 
@@ -70,3 +70,13 @@ To update any changes, in the terminal enter:
 
     git push
 
+## Credits
+
+### Content
+
+Written by me.
+
+### Acknowledgements
+
+- [Project Euler](https://projecteuler.net)
+- [FreeCodeCamp](https://www.freecodecamp.org)
