@@ -54,3 +54,19 @@ Allows the user to enter the limit (number) in order to get the number of elemen
 
 Uses HTML5, CSS3, JavaScript, Bootstrap 5.3.0-alpha1 and Google Fonts.
 
+## Testing
+
+Ensure all user stories have been met.  In the terminal enter:
+
+    python3 -m http.server
+
+Select `Open Preview` to preview the browser.  Enter the numbers and Submit.  Check if the result corresponds to the user story.  If it does not, check typing.
+
+## Deployment
+
+Deployed on [GitHub Pages](https://derektypist.github.io/project-euler-072) at the main branch.  Go to `Settings`, then `Pages` and in `Branch` select `main`.  Then select `Save`.  Wait a few minutes.
+
+To update any changes, in the terminal enter:
+
+    git push
+
