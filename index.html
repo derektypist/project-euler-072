@@ -24,5 +24,22 @@
         <p>It can be seen that there are 21 elements in this set.</p>
         <p>How many elements would be contained in the set of reduced proper fractions for d &le; limit?  Begin by entering a number.</p>
     </section>
+
+    <!-- Set Up Form -->
+    <section class="container-fluid">
+        <form>
+            <!-- Set Up Label and Input -->
+            <article class="mb-3">
+                <label for="mylimit" class="form-label">Limit (Required)</label>
+                <input class="form-control" placeholder="Enter whole number between 2 and 1000000 (without leading zeros)" title="Enter whole number between 2 and 1000000 (without leading zeros)" id="mylimit">
+            </article>
+            
+            <!-- Set Up and Center Buttons -->
+            <article class="d-grid gap-2 d-flex justify-content-center">
+                <button type="button" class="btn btn-info" onclick="getLimitInfo()">Submit</button>
+                <button type="reset" class="btn btn-warning" onclick="clearInfo()"></button>
+            </article>
+        </form>
+    </section>
 </body>
 </html>
